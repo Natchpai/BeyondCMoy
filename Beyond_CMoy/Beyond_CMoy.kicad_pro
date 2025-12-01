@@ -191,6 +191,7 @@
         0.2,
         0.3,
         0.5,
+        0.6,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -512,7 +513,7 @@
         "bus_width": 12,
         "name": "5V",
         "pcb_color": "rgb(210, 177, 0)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(210, 177, 0)",
         "wire_width": 15
       },
@@ -521,16 +522,22 @@
         "line_style": 0,
         "name": "BATT",
         "pcb_color": "rgb(255, 37, 248)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 37, 248)",
         "wire_width": 15
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgb(72, 72, 72)",
+        "priority": 0,
+        "schematic_color": "rgb(72, 72, 72)"
       },
       {
         "bus_width": 12,
         "line_style": 0,
         "name": "L",
         "pcb_color": "rgb(0, 194, 194)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(0, 194, 194)",
         "wire_width": 12
       },
@@ -539,7 +546,7 @@
         "line_style": 0,
         "name": "POWER",
         "pcb_color": "rgb(245, 129, 0)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(245, 129, 0)",
         "wire_width": 15
       },
@@ -548,7 +555,7 @@
         "line_style": 0,
         "name": "R",
         "pcb_color": "rgb(13, 176, 98)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(13, 176, 98)",
         "wire_width": 12
       }
@@ -594,6 +601,10 @@
       {
         "netclass": "5V",
         "pattern": "+5V"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
       }
     ]
   },
