@@ -4473,6 +4473,16 @@
 			"rkJggg=="
 		)
 	)
+	(label "U1_FB"
+		(at 261.62 226.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c648b0e-63b5-4b71-ae11-90c9cb643025")
+	)
 	(label "L_BUFFER"
 		(at 176.53 110.49 0)
 		(effects
@@ -4492,6 +4502,16 @@
 			(justify left bottom)
 		)
 		(uuid "a974eb76-a300-404e-aa96-35f51c14fadc")
+	)
+	(label "U2_FB"
+		(at 259.08 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c47227a0-d80e-49d3-aab4-7971a59667fc")
 	)
 	(label "R_BUFFER"
 		(at 177.8 191.77 0)

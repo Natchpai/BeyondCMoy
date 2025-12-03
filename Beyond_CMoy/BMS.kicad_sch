@@ -2224,6 +2224,16 @@
 		)
 		(uuid "7237c780-4b43-4762-b12c-a63d085a964e")
 	)
+	(text "C0G"
+		(exclude_from_sim no)
+		(at 100.584 84.836 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "728b11d6-5ad6-44f3-bdd1-513e7a1505f4")
+	)
 	(text "USB-C Receptacle\n6 Pin"
 		(exclude_from_sim no)
 		(at 41.91 128.27 0)

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.0,
+          "height": 0.9,
+          "width": 1.475
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -223,6 +223,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.25
         },
         {
           "diameter": 0.6,
@@ -464,7 +468,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -526,10 +530,12 @@
         "wire_width": 15
       },
       {
+        "bus_width": 12,
         "name": "GND",
         "pcb_color": "rgb(72, 72, 72)",
         "priority": 0,
-        "schematic_color": "rgb(72, 72, 72)"
+        "schematic_color": "rgb(72, 72, 72)",
+        "wire_width": 15
       },
       {
         "bus_width": 12,
@@ -801,7 +807,7 @@
     "DESIGN_DATE": "22/11/2025",
     "DESIGN_NAME": "Natchanon T.",
     "DOC_TYPE": "Assembly",
-    "MOD_DATE": "-",
+    "MOD_DATE": "3/12/2025",
     "MOD_NAME": "-",
     "PROJECT_NAME": "Beyond CMoy",
     "RELEASE_DATE": "-",
