@@ -37,18 +37,18 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.5,
-          "height": 2.5,
-          "width": 2.5
+          "drill": 8.0,
+          "height": 10.0,
+          "width": 10.0
         },
-        "silk_line_width": 0.15,
+        "silk_line_width": 0.2,
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15,
+        "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -58,16 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|180750000|105500000|01899223-efbc-4c6a-bc0d-a4833c122205|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|187032500|102500000|dc2b5f84-ac83-4c8c-bdfe-91362cce2cc7|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -132,9 +123,9 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.2,
-        "min_connection": 0.2,
-        "min_copper_edge_clearance": 0.5,
+        "min_clearance": 0.0,
+        "min_connection": 0.0,
+        "min_copper_edge_clearance": 0.25,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -143,12 +134,12 @@
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.15,
         "min_text_height": 1.0,
-        "min_text_thickness": 0.15,
+        "min_text_thickness": 1.0,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
-        "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.6,
-        "solder_mask_to_copper_clearance": 0.1,
+        "min_track_width": 0.0,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.5,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -196,14 +187,7 @@
         }
       ],
       "track_widths": [
-        0.0,
-        0.2,
-        0.3,
-        0.4,
-        0.5,
-        0.8,
-        0.9,
-        1.0
+        0.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -235,22 +219,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.6,
-          "drill": 0.25
-        },
-        {
-          "diameter": 0.6,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.7,
-          "drill": 0.3
-        },
-        {
-          "diameter": 1.0,
-          "drill": 0.5
         }
       ],
       "zones_allow_external_fillets": false
@@ -271,12 +239,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "power_pin_not_driven|2349500|431800|096d7695-78a6-4e8c-ae59-f490f9e6f587|00000000-0000-0000-0000-000000000000|/1ee317a7-d9f9-4115-84b1-2928dd345c54/5a34e38c-4a25-4100-abfa-7d7109ddb273|/1ee317a7-d9f9-4115-84b1-2928dd345c54/5a34e38c-4a25-4100-abfa-7d7109ddb273|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -480,7 +443,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -501,7 +464,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Beyond_CMoy.kicad_pro",
+    "filename": "EnclosurePanels_AA202511001M2.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -523,58 +486,6 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "name": "5V",
-        "pcb_color": "rgb(210, 177, 0)",
-        "priority": 1,
-        "schematic_color": "rgb(210, 177, 0)",
-        "wire_width": 15
-      },
-      {
-        "bus_width": 12,
-        "line_style": 0,
-        "name": "BATT",
-        "pcb_color": "rgb(255, 37, 248)",
-        "priority": 2,
-        "schematic_color": "rgb(255, 37, 248)",
-        "wire_width": 15
-      },
-      {
-        "bus_width": 12,
-        "name": "GND",
-        "pcb_color": "rgb(194, 194, 194)",
-        "priority": 0,
-        "schematic_color": "rgb(72, 72, 72)",
-        "wire_width": 15
-      },
-      {
-        "bus_width": 12,
-        "line_style": 0,
-        "name": "L",
-        "pcb_color": "rgb(0, 194, 194)",
-        "priority": 5,
-        "schematic_color": "rgb(0, 194, 194)",
-        "wire_width": 12
-      },
-      {
-        "bus_width": 12,
-        "line_style": 0,
-        "name": "POWER",
-        "pcb_color": "rgb(245, 129, 0)",
-        "priority": 3,
-        "schematic_color": "rgb(245, 129, 0)",
-        "wire_width": 15
-      },
-      {
-        "bus_width": 12,
-        "line_style": 0,
-        "name": "R",
-        "pcb_color": "rgb(13, 176, 98)",
-        "priority": 4,
-        "schematic_color": "rgb(13, 176, 98)",
-        "wire_width": 12
       }
     ],
     "meta": {
@@ -582,58 +493,17 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "R",
-        "pattern": "/Interface/R*"
-      },
-      {
-        "netclass": "L",
-        "pattern": "/Interface/L*"
-      },
-      {
-        "netclass": "L",
-        "pattern": "/Amplifier/L*"
-      },
-      {
-        "netclass": "R",
-        "pattern": "/Amplifier/R*"
-      },
-      {
-        "netclass": "POWER",
-        "pattern": "+9V*"
-      },
-      {
-        "netclass": "BATT",
-        "pattern": "+BATT"
-      },
-      {
-        "netclass": "POWER",
-        "pattern": "VBUS"
-      },
-      {
-        "netclass": "POWER",
-        "pattern": "/Power*/BS*"
-      },
-      {
-        "netclass": "5V",
-        "pattern": "+5V"
-      },
-      {
-        "netclass": "GND",
-        "pattern": "GND"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Manufacturing/Fabrication/BeyondCMoy-Gerbers/",
-      "pos_files": "Manufacturing/Assembly/",
+      "plot": "AA202511001M2_Gerber/",
+      "pos_files": "",
       "specctra_dsn": "",
-      "step": "C:/Users/AORUS/Downloads/Beyond_CMoy.step",
+      "step": "C:/Users/AORUS/Downloads/EnclosurePanels_AA202511001M2.step",
       "svg": "",
       "vrml": ""
     },
@@ -700,39 +570,15 @@
         },
         {
           "group_by": false,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Mf. Part Number",
-          "name": "Mf. Part Number",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC Part",
-          "name": "LCSC Part",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -776,8 +622,8 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "kicad-embed://Rev5_MyCustomTemplate_A3.kicad_wks",
-    "plot_directory": "../",
+    "page_layout_descr_file": "",
+    "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -790,40 +636,24 @@
   },
   "sheets": [
     [
-      "1ee317a7-d9f9-4115-84b1-2928dd345c54",
+      "4794369c-852d-4eda-97d5-571f61ac7d0f",
       "Root"
-    ],
-    [
-      "5a34e38c-4a25-4100-abfa-7d7109ddb273",
-      "Interface"
-    ],
-    [
-      "2d9672f4-3b4a-4b4e-8c07-73e5cea2fbd1",
-      "Amplifier"
-    ],
-    [
-      "4ea140a5-ed5c-4bae-898c-47222fd73685",
-      "Power Management System"
-    ],
-    [
-      "615c305d-8768-47e7-86f6-9adb9bcb9cb4",
-      "Battery Management System"
     ]
   ],
   "text_variables": {
     "APPROVED_DATE": "-",
     "APPROVED_NAME": "-",
     "BOARD_ID": "AA-2025-11-001",
-    "BOARD_NAME1": "Beyond CMoy",
-    "BOARD_NAME2": "AA-2025-11-001-M1",
-    "DESIGN_DATE": "22/11/2025",
+    "BOARD_NAME1": "Front Panel",
+    "BOARD_NAME2": "AA-2025-11-001-M2",
+    "DESIGN_DATE": "6/12/2025",
     "DESIGN_NAME": "Natchanon T.",
-    "DOC_TYPE": "Assembly",
+    "DOC_TYPE": "Fabrication",
     "MOD_DATE": "-",
     "MOD_NAME": "-",
     "PROJECT_NAME": "Beyond CMoy",
     "RELEASE_DATE": "7/12/2025",
-    "REVIEW_DATE": "6/12/2025",
+    "REVIEW_DATE": "7/12/2025",
     "REVIEW_NAME": "Natchanon T.",
     "VARIANT": "RELEASED"
   }

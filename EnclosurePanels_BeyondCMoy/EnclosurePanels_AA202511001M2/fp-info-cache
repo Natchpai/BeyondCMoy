@@ -1,32 +1,11 @@
-26188442910056640
-0_AudioConnectors
-PJ-327F_SMD
+26181390297343494
+0_Dial
+DialScale_R4
 
 
 0
-10
-5
-0_Devices
-0_C_0805_Edited
-Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
-capacitor
 0
-2
-2
-0_Devices
-0_L_1008_Edited
-Inductor SMD 1008 (2520 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://ecsxtal.com/store/pdf/ECS-MPI2520-SMD-POWER-INDUCTOR.pdf), generated with kicad-footprint-generator
-inductor
 0
-2
-2
-0_Potentiometer
-0_RK097GS_Dual_Horizontal_Switch
-1221-5R1211, Dual Pot, Horizontal, Switch, Alps RK097 Dual, https://tech.alpsalpine.com/prod/e/pdf/potentiometer/rotarypotentiometers/rk097/rk097.pdf
-Potentiometer horizontal Alps RK097 Dual Switch
-0
-8
-8
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -69446,6 +69425,20 @@ solder jumper open
 0
 3
 3
+KiCAD
+NP_logo
+
+
+0
+0
+0
+KiCAD
+NP_logo_Mask
+
+
+0
+0
+0
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -104068,24 +104061,3 @@ Varistor VF
 0
 2
 2
-easyeda2kicad
-AUDIO-SMD_PJ-327F
-
-
-0
-7
-5
-easyeda2kicad
-LQFN-56_L7.0-W7.0-P0.4-EP
-
-
-0
-57
-57
-easyeda2kicad
-SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR
-
-
-0
-5
-5

@@ -928,26 +928,6 @@
 				(justify left top)
 			)
 		)
-		(pin "L_INPUT" output
-			(at 107.95 99.06 0)
-			(uuid "ce477744-91a5-44ef-b3d7-ac844a48428f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "R_INPUT" output
-			(at 107.95 104.14 0)
-			(uuid "fc69635d-3888-46f3-8b61-003647ef35ff")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "L_OUT" input
 			(at 107.95 115.57 0)
 			(uuid "4fa95488-b9e0-4e8d-9f40-cb9d88db055a")
@@ -981,6 +961,26 @@
 		(pin "+5V" input
 			(at 107.95 67.31 0)
 			(uuid "652c8b0e-28f6-41d2-aae5-73e66a4dfcb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "L_COUP" output
+			(at 107.95 99.06 0)
+			(uuid "83cfc9af-a17d-4339-a2b9-47a86ed2e3d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "R_COUP" output
+			(at 107.95 104.14 0)
+			(uuid "42d6ea00-b605-46b5-b9cd-d2a3f074d011")
 			(effects
 				(font
 					(size 1.27 1.27)

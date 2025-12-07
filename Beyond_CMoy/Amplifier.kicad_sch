@@ -5142,7 +5142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "-"
 			(at 270.51 57.15 0)
 			(effects
 				(font
@@ -5151,7 +5151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mf. Part Number" ""
+		(property "Mf. Part Number" "NE5532"
 			(at 270.51 57.15 0)
 			(effects
 				(font
@@ -5551,7 +5551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "-"
 			(at 271.78 123.19 0)
 			(effects
 				(font
@@ -5560,7 +5560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mf. Part Number" ""
+		(property "Mf. Part Number" "NE5532"
 			(at 271.78 123.19 0)
 			(effects
 				(font
@@ -5696,7 +5696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_Devices:0_C_0805_PasteCustom"
+		(property "Footprint" "0_Devices:0_C_0805_Edited"
 			(at 274.0152 223.52 0)
 			(effects
 				(font
@@ -6049,7 +6049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "-"
 			(at 146.05 191.77 0)
 			(effects
 				(font
@@ -6058,7 +6058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mf. Part Number" ""
+		(property "Mf. Part Number" "NE5532"
 			(at 146.05 191.77 0)
 			(effects
 				(font
@@ -6218,7 +6218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "-"
 			(at 99.06 191.77 0)
 			(effects
 				(font
@@ -6227,7 +6227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mf. Part Number" ""
+		(property "Mf. Part Number" "NE5532"
 			(at 99.06 191.77 0)
 			(effects
 				(font
@@ -6714,7 +6714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "-"
 			(at 99.06 109.22 0)
 			(effects
 				(font
@@ -6723,7 +6723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mf. Part Number" ""
+		(property "Mf. Part Number" "NE5532"
 			(at 99.06 109.22 0)
 			(effects
 				(font
@@ -6989,7 +6989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "-"
 			(at 271.78 201.93 0)
 			(effects
 				(font
@@ -6998,7 +6998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mf. Part Number" ""
+		(property "Mf. Part Number" "NE5532"
 			(at 271.78 201.93 0)
 			(effects
 				(font
@@ -7095,7 +7095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "-"
 			(at 99.06 109.22 0)
 			(effects
 				(font
@@ -7104,7 +7104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mf. Part Number" ""
+		(property "Mf. Part Number" "NE5532"
 			(at 99.06 109.22 0)
 			(effects
 				(font
@@ -7521,7 +7521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_Devices:0_C_0805_PasteCustom"
+		(property "Footprint" "0_Devices:0_C_0805_Edited"
 			(at 244.8052 67.31 0)
 			(effects
 				(font
@@ -7548,7 +7548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "SAMSUNG"
 			(at 243.84 63.5 0)
 			(effects
 				(font
@@ -7788,7 +7788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "-"
 			(at 146.05 110.49 0)
 			(effects
 				(font
@@ -7797,7 +7797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mf. Part Number" ""
+		(property "Mf. Part Number" "NE5532"
 			(at 146.05 110.49 0)
 			(effects
 				(font
@@ -8065,7 +8065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "-"
 			(at 271.78 123.19 0)
 			(effects
 				(font
@@ -8074,7 +8074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mf. Part Number" ""
+		(property "Mf. Part Number" "NE5532"
 			(at 271.78 123.19 0)
 			(effects
 				(font
@@ -9155,7 +9155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "-"
 			(at 271.78 201.93 0)
 			(effects
 				(font
@@ -9164,7 +9164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mf. Part Number" ""
+		(property "Mf. Part Number" "NE5532"
 			(at 271.78 201.93 0)
 			(effects
 				(font
@@ -9261,7 +9261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "-"
 			(at 99.06 191.77 0)
 			(effects
 				(font
@@ -9270,7 +9270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mf. Part Number" ""
+		(property "Mf. Part Number" "NE5532"
 			(at 99.06 191.77 0)
 			(effects
 				(font
@@ -9843,7 +9843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "-"
 			(at 335.28 57.15 0)
 			(effects
 				(font
@@ -9852,7 +9852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mf. Part Number" ""
+		(property "Mf. Part Number" "NE5532"
 			(at 335.28 57.15 0)
 			(effects
 				(font
@@ -10010,7 +10010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_Devices:0_C_0805_PasteCustom"
+		(property "Footprint" "0_Devices:0_C_0805_Edited"
 			(at 272.7452 144.78 0)
 			(effects
 				(font
@@ -11277,7 +11277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_Devices:0_C_0805_PasteCustom"
+		(property "Footprint" "0_Devices:0_C_0805_Edited"
 			(at 308.3052 68.58 0)
 			(effects
 				(font
@@ -11304,7 +11304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "SAMSUNG"
 			(at 307.34 64.77 0)
 			(effects
 				(font

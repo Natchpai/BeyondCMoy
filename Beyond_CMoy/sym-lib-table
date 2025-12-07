@@ -4,4 +4,6 @@
   (lib (name "0_Jack")(type "KiCad")(uri "${KIPRJMOD}/Library/Symbols/0_Jack.kicad_sym")(options "")(descr ""))
   (lib (name "0_Potentiometer")(type "KiCad")(uri "${KIPRJMOD}/Library/Symbols/0_Potentiometer.kicad_sym")(options "")(descr ""))
   (lib (name "0_LP4054H")(type "KiCad")(uri "${KIPRJMOD}/Library/Symbols/0_LP4054H.kicad_sym")(options "")(descr ""))
+  (lib (name "0_BA8391G-TR")(type "KiCad")(uri "${KIPRJMOD}/Library/Symbols/0_BA8391G-TR.kicad_sym")(options "")(descr ""))
+  (lib (name "0_VREF")(type "KiCad")(uri "${KIPRJMOD}/Library/Symbols/0_VREF.kicad_sym")(options "")(descr ""))
 )

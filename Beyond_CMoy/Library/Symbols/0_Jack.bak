@@ -6,7 +6,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "Audio"
+		(property "Reference" "J"
 			(at 0 10.16 0)
 			(effects
 				(font

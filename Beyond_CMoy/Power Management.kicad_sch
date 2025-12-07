@@ -2145,6 +2145,16 @@
 		)
 		(uuid "113ed64e-09f5-43e7-82bc-4c5f467e4152")
 	)
+	(text "Side View"
+		(exclude_from_sim no)
+		(at 234.95 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "599b3a18-6b82-4cee-8933-e70e90c83a8a")
+	)
 	(text "[${#}] ${TITLE}"
 		(exclude_from_sim no)
 		(at 148.59 22.86 0)
@@ -2806,16 +2816,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 69.85) (xy 83.82 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8906bb4d-57b2-40ae-8862-0fc02d67d234")
-	)
-	(wire
-		(pts
 			(xy 227.33 67.31) (xy 227.33 71.12)
 		)
 		(stroke
@@ -2823,6 +2823,16 @@
 			(type default)
 		)
 		(uuid "8b7d7ddf-d640-4eea-8ce5-e7874ab9f0e0")
+	)
+	(wire
+		(pts
+			(xy 227.33 97.79) (xy 227.33 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cdf93b3-c473-4967-831f-0881b493a5bd")
 	)
 	(wire
 		(pts
@@ -2966,6 +2976,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 135.89) (xy 184.15 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c42024b4-84dd-48d6-b8b4-76da23a34b4d")
+	)
+	(wire
+		(pts
 			(xy 208.28 132.08) (xy 208.28 140.97)
 		)
 		(stroke
@@ -2983,6 +3003,16 @@
 			(type default)
 		)
 		(uuid "d1ef255b-4cbf-4e88-8f2b-2d75711dd34c")
+	)
+	(wire
+		(pts
+			(xy 83.82 69.85) (xy 83.82 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5f90ccd-7f75-4439-bb1a-5b5750920e6d")
 	)
 	(wire
 		(pts
@@ -3865,7 +3895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_Devices:0_C_0805_PasteCustom"
+		(property "Footprint" "0_Devices:0_C_0805_Edited"
 			(at 84.7852 69.85 0)
 			(effects
 				(font
@@ -3892,7 +3922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "SAMSUNG"
 			(at 83.82 66.04 0)
 			(effects
 				(font
@@ -4038,7 +4068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_Devices:0_C_0805_PasteCustom"
+		(property "Footprint" "0_Devices:0_C_0805_Edited"
 			(at 221.9452 135.89 0)
 			(effects
 				(font
@@ -4065,7 +4095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "SAMSUNG"
 			(at 220.98 132.08 0)
 			(effects
 				(font
@@ -4407,7 +4437,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uH"
+		(property "Value" "10u"
 			(at 129.54 52.07 90)
 			(effects
 				(font
@@ -4415,7 +4445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "0_Devices:0_L_1008_Edited"
 			(at 129.54 54.61 0)
 			(effects
 				(font
@@ -4433,7 +4463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Chip Multilayer Inductors 4.7μH ±20%, Ferrite"
+		(property "Description" "Chip Metal Alloy Inductor 10μH ±20%"
 			(at 129.54 54.61 0)
 			(effects
 				(font
@@ -4451,7 +4481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mf. Part Number" "LQM18PN4R7MFRL"
+		(property "Mf. Part Number" "DFE252010F-100M=P2"
 			(at 129.54 54.61 90)
 			(effects
 				(font
@@ -4810,6 +4840,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 184.15 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5723ef7b-1a8a-4896-84e1-889a5d8d3d83")
+		(property "Reference" "#PWR063"
+			(at 184.15 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe562301-8178-49ec-b388-ace789c956e9")
+		)
+		(instances
+			(project "Beyond_CMoy"
+				(path "/1ee317a7-d9f9-4115-84b1-2928dd345c54/4ea140a5-ed5c-4bae-898c-47222fd73685"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 227.33 74.93 90)
 		(unit 1)
@@ -4837,7 +4933,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_Kingbright_APA1606_1.6x0.6mm_Horizontal"
 			(at 227.33 74.93 0)
 			(effects
 				(font
@@ -4882,7 +4978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mf. Part Number" "LTST-C191TGKT"
+		(property "Mf. Part Number" "LTST-S270KGKT"
 			(at 227.33 74.93 90)
 			(effects
 				(font
@@ -5020,7 +5116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_Devices:0_C_0805_PasteCustom"
+		(property "Footprint" "0_Devices:0_C_0805_Edited"
 			(at 163.5252 64.77 0)
 			(effects
 				(font
@@ -5047,7 +5143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "SAMSUNG"
 			(at 162.56 60.96 0)
 			(effects
 				(font
@@ -5107,7 +5203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_Devices:0_C_0805_PasteCustom"
+		(property "Footprint" "0_Devices:0_C_0805_Edited"
 			(at 195.2752 135.89 0)
 			(effects
 				(font
@@ -5134,7 +5230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "SAMSUNG"
 			(at 194.31 132.08 0)
 			(effects
 				(font
@@ -5162,6 +5258,72 @@
 			(project ""
 				(path "/1ee317a7-d9f9-4115-84b1-2928dd345c54/4ea140a5-ed5c-4bae-898c-47222fd73685"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 227.33 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f412eb1-275e-4c49-a703-3c3a78e180a3")
+		(property "Reference" "#PWR062"
+			(at 227.33 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 227.33 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 227.33 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb0c57f4-6e36-4096-ab81-b0e2da4afd23")
+		)
+		(instances
+			(project "Beyond_CMoy"
+				(path "/1ee317a7-d9f9-4115-84b1-2928dd345c54/4ea140a5-ed5c-4bae-898c-47222fd73685"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -5802,7 +5964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_Devices:0_C_0805_PasteCustom"
+		(property "Footprint" "0_Devices:0_C_0805_Edited"
 			(at 190.1952 64.77 0)
 			(effects
 				(font
@@ -5829,7 +5991,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "SAMSUNG"
 			(at 189.23 60.96 0)
 			(effects
 				(font
@@ -6261,7 +6423,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0_Devices:0_C_0805_PasteCustom"
+		(property "Footprint" "0_Devices:0_C_0805_Edited"
 			(at 205.4352 64.77 0)
 			(effects
 				(font
@@ -6288,7 +6450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "SAMSUNG"
 			(at 204.47 60.96 0)
 			(effects
 				(font
@@ -6404,6 +6566,91 @@
 			(project "Beyond_CMoy"
 				(path "/1ee317a7-d9f9-4115-84b1-2928dd345c54/4ea140a5-ed5c-4bae-898c-47222fd73685"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 227.33 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e90f08ac-aef5-4259-9a56-44d4079b18b0")
+		(property "Reference" "TP6"
+			(at 229.87 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 232.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 227.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 227.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mf. Part Number" ""
+			(at 227.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df9402ab-0a5a-4b22-8363-b2ce9df7ecaf")
+		)
+		(instances
+			(project "Beyond_CMoy"
+				(path "/1ee317a7-d9f9-4115-84b1-2928dd345c54/4ea140a5-ed5c-4bae-898c-47222fd73685"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -6579,6 +6826,91 @@
 			(project "Beyond_CMoy"
 				(path "/1ee317a7-d9f9-4115-84b1-2928dd345c54/4ea140a5-ed5c-4bae-898c-47222fd73685"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 184.15 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbca6fcd-50d3-4657-a534-d9be8fec684c")
+		(property "Reference" "TP8"
+			(at 186.69 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 189.23 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 184.15 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 184.15 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mf. Part Number" ""
+			(at 184.15 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5fca4b0-31f4-4494-8a5e-d75badbd8240")
+		)
+		(instances
+			(project "Beyond_CMoy"
+				(path "/1ee317a7-d9f9-4115-84b1-2928dd345c54/4ea140a5-ed5c-4bae-898c-47222fd73685"
+					(reference "TP8")
 					(unit 1)
 				)
 			)

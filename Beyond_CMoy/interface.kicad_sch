@@ -3327,12 +3327,11 @@
 		(end 53.34 78.74)
 		(stroke
 			(width 0.508)
-			(type default)
+			(type solid)
 			(color 194 194 194 1)
 		)
 		(fill
-			(type color)
-			(color 255 255 255 1)
+			(type none)
 		)
 		(uuid 72564e6e-cd9c-4c8d-90d0-83007f0aa1a0)
 	)
@@ -3393,12 +3392,11 @@
 		(end 267.97 135.89)
 		(stroke
 			(width 0.508)
-			(type default)
+			(type solid)
 			(color 194 194 194 1)
 		)
 		(fill
-			(type color)
-			(color 255 255 255 1)
+			(type none)
 		)
 		(uuid ca2d7fff-213b-406c-9353-ce061f992115)
 	)
@@ -3407,12 +3405,11 @@
 		(end 53.34 121.92)
 		(stroke
 			(width 0.508)
-			(type default)
+			(type solid)
 			(color 194 194 194 1)
 		)
 		(fill
-			(type color)
-			(color 255 255 255 1)
+			(type none)
 		)
 		(uuid ea7b6bf6-2bba-4afb-b162-c4b431f0bd5c)
 	)
@@ -3421,12 +3418,11 @@
 		(end 106.68 184.15)
 		(stroke
 			(width 0.508)
-			(type default)
+			(type solid)
 			(color 194 194 194 1)
 		)
 		(fill
-			(type color)
-			(color 255 255 255 1)
+			(type none)
 		)
 		(uuid eb63b408-b2b1-4133-ac63-904442b40398)
 	)
@@ -37563,7 +37559,7 @@
 		)
 		(uuid "f1effa61-316e-420a-8140-97c984b0ed60")
 	)
-	(hierarchical_label "R_INPUT"
+	(hierarchical_label "R_COUP"
 		(shape output)
 		(at 210.82 66.04 0)
 		(effects
@@ -37574,7 +37570,7 @@
 		)
 		(uuid "256cc94c-489b-4e13-9be1-0197fad6dcc7")
 	)
-	(hierarchical_label "L_INPUT"
+	(hierarchical_label "L_COUP"
 		(shape output)
 		(at 210.82 57.15 0)
 		(effects
@@ -39023,6 +39019,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "-"
+			(at 78.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f8b37e20-b8de-4229-ad77-e3d596e5cd59")
 		)
@@ -39046,7 +39051,7 @@
 	)
 	(symbol
 		(lib_id "0_Potentiometer:RK097GS")
-		(at 43.18 171.45 0)
+		(at 43.18 171.45 180)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39055,17 +39060,17 @@
 		(fields_autoplaced yes)
 		(uuid "a99d0451-ef94-4b04-9c90-7dabe24da0a1")
 		(property "Reference" "P1"
-			(at 44.45 171.45 0)
+			(at 45.72 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.1588)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10k"
-			(at 44.45 172.72 0)
+			(at 41.91 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39075,7 +39080,7 @@
 			)
 		)
 		(property "Footprint" "0_Potentiometer:0_RK097GS_Dual_Horizontal_Switch"
-			(at 44.45 181.864 0)
+			(at 41.91 161.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
