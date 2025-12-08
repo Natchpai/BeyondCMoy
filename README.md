@@ -5,7 +5,7 @@
 > Upgrade NORMAL Headphone Amplifier that my old classwork to something new.
 
 
-<img height="400" alt="3D" src="https://github.com/Natchpai/BeyondCMoy/blob/main/BeyondCMoy_view2.png" />
+<img height="350" alt="3D" src="https://github.com/Natchpai/BeyondCMoy/blob/main/BeyondCMoy_view3.jpg" />
 
 ## ✨ Features
 - **Inputs:** Bluetooth and 3.5mm Aux jack
