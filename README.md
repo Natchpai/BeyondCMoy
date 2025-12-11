@@ -5,13 +5,13 @@
 > Upgrade NORMAL Headphone Amplifier that my old classwork to something new.
 
 
-<img height="350" alt="3D" src="https://github.com/Natchpai/BeyondCMoy/blob/main/BeyondCMoy_view3.jpg" />
+<img height="350" alt="3D" src="https://github.com/Natchpai/BeyondCMoy/blob/main/Beyond_CMoy/Images/BeyondCMoy_view3.jpg" />
 
 ## ✨ Features
 - **Inputs:** Bluetooth and 3.5mm Aux jack
 - **Battery:** Lithium polymer
 - **Charging:** Via USB-C
-
+  
 
 ## 📄 License
 
