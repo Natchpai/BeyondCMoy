@@ -637,11 +637,11 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "kicad-embed://Rev5_MyCustomTemplate_Fab_A4.kicad_wks"
+    "page_layout_descr_file": "kicad-embed://Rev10_MyCustomTemplate_Fabri_A4.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "Manufacturing\\Assembly\\Beyond_CMoy-BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -656,6 +656,12 @@
     "bom_settings": {
       "exclude_dnp": false,
       "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": true
+        },
         {
           "group_by": false,
           "label": "Reference",
@@ -699,13 +705,13 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Manufacturer",
           "name": "Manufacturer",
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Mf. Part Number",
           "name": "Mf. Part Number",
           "show": true
@@ -733,12 +739,6 @@
           "label": "Description",
           "name": "Description",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
@@ -776,7 +776,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "kicad-embed://Rev5_MyCustomTemplate_A3.kicad_wks",
+    "page_layout_descr_file": "kicad-embed://Rev10_MyCustomTemplate_A3.kicad_wks",
     "plot_directory": "../",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -808,12 +808,15 @@
     [
       "615c305d-8768-47e7-86f6-9adb9bcb9cb4",
       "Battery Management System"
+    ],
+    [
+      "9fa7df57-4063-431b-a592-93d62d763937",
+      "Revision History"
     ]
   ],
   "text_variables": {
     "APPROVED_DATE": "-",
     "APPROVED_NAME": "-",
-    "BOARD_ID": "AA-2025-11-001",
     "BOARD_NAME1": "Beyond CMoy",
     "BOARD_NAME2": "AA-2025-11-001-M1",
     "DESIGN_DATE": "22/11/2025",
@@ -821,6 +824,7 @@
     "DOC_TYPE": "Assembly",
     "MOD_DATE": "-",
     "MOD_NAME": "-",
+    "PROJECT_ID": "AA-2025-11-001",
     "PROJECT_NAME": "Beyond CMoy",
     "RELEASE_DATE": "7/12/2025",
     "REVIEW_DATE": "6/12/2025",
