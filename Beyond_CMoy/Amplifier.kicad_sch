@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Amplifier")
-		(rev "1.0")
+		(rev "1.1")
 		(company "Natchpai")
 	)
 	(lib_symbols
@@ -1507,6 +1507,19 @@
 		)
 		(uuid "0850a344-f7a6-4ee8-acd3-9efdd57961e1")
 	)
+	(text "1k"
+		(exclude_from_sim no)
+		(at 151.13 125.73 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+				(thickness 0.762)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "0ce24984-76b2-4922-a4b2-068ece69d8fb")
+	)
 	(text "Tantalum"
 		(exclude_from_sim no)
 		(at 242.57 125.73 0)
@@ -1516,6 +1529,19 @@
 			)
 		)
 		(uuid "1649d024-6f59-4ca1-a150-2ba720e9bc37")
+	)
+	(text "1k"
+		(exclude_from_sim no)
+		(at 149.86 207.01 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+				(thickness 0.762)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "18e4a05b-117a-4f86-ac7a-0b73f716f346")
 	)
 	(text "L-CH"
 		(exclude_from_sim no)
@@ -1569,6 +1595,19 @@
 		)
 		(uuid "52f6218c-0806-4973-9a50-3e8aa92f25fb")
 	)
+	(text "5.1k"
+		(exclude_from_sim no)
+		(at 252.73 153.67 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+				(thickness 0.762)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "536a15b8-cf51-43b0-8a46-f5672e50dda5")
+	)
 	(text "Tantalum\n10V"
 		(exclude_from_sim no)
 		(at 308.61 208.28 0)
@@ -1588,6 +1627,19 @@
 			)
 		)
 		(uuid "6028fe90-d8a4-480a-a29a-9c6a1697b620")
+	)
+	(text "5.1k"
+		(exclude_from_sim no)
+		(at 254 233.68 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+				(thickness 0.762)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "638af3eb-86bf-4ede-9fcc-6898d282c066")
 	)
 	(text "U4"
 		(exclude_from_sim no)
@@ -1719,6 +1771,19 @@
 			)
 		)
 		(uuid "d3e8710d-2277-4cca-9b6b-3bf7381d85ef")
+	)
+	(text "0.22uF 0603 X7R"
+		(exclude_from_sim no)
+		(at 344.17 234.95 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+				(thickness 0.762)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "e32c58a8-f681-4af7-809e-dc89110d06b1")
 	)
 	(text "C0G"
 		(exclude_from_sim no)

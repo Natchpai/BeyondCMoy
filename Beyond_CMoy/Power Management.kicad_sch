@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Power Management System")
-		(rev "1.0")
+		(rev "1.1")
 		(company "Natchpai")
 	)
 	(lib_symbols
@@ -879,23 +879,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 7.62 0)
+			(property "Reference" "U6"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "BD50FC0FP"
-				(at 0 5.08 0)
+			(property "Value" "BD50FA1FP3"
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -904,7 +904,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfc0wefj-e.pdf"
+			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfa1fp3-e.pdf"
 				(at 0 10.16 0)
 				(effects
 					(font
@@ -913,7 +913,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1A, 5.0V LDO regulator with OVP & TSP, without enable, TO-252"
+			(property "Description" "LDO Regulator Fixed Output 5V/100mA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "ROHM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mf. Part Number" "BD50FA1FP3-ZTL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -942,8 +960,8 @@
 			)
 			(symbol "BD50FC0FP_1_1"
 				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.27)
+					(start -5.08 1.27)
+					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -962,7 +980,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -998,7 +1016,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2094,7 +2112,7 @@
 		)
 	)
 	(rectangle
-		(start 57.15 38.1)
+		(start 46.99 38.1)
 		(end 248.92 106.68)
 		(stroke
 			(width 0.508)
@@ -2119,9 +2137,23 @@
 		)
 		(uuid 0847c35c-0579-4077-ad9f-7b2507c0d51c)
 	)
+	(circle
+		(center 92.71 73.66)
+		(radius 32.3788)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 0 0 0.3)
+		)
+		(uuid db83501e-1346-4d51-8e03-aa5638d7af8f)
+	)
 	(text "Boost Converter"
 		(exclude_from_sim no)
-		(at 72.39 102.87 0)
+		(at 67.31 102.87 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2144,6 +2176,19 @@
 			)
 		)
 		(uuid "113ed64e-09f5-43e7-82bc-4c5f467e4152")
+	)
+	(text "USE FET"
+		(exclude_from_sim no)
+		(at 96.52 119.38 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+				(thickness 0.762)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "22f89b3a-b427-4098-9a89-f1a2896582e3")
 	)
 	(text "Side View"
 		(exclude_from_sim no)
@@ -2239,7 +2284,7 @@
 		(uuid "3bdea72e-1590-4ec3-a3f0-ae8dcec6a140")
 	)
 	(junction
-		(at 83.82 54.61)
+		(at 69.85 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4793ddfa-71cb-4f3f-aa2e-282cf7724445")
@@ -2263,7 +2308,7 @@
 		(uuid "59131473-a7bb-4813-83fb-a65ad9fe916e")
 	)
 	(junction
-		(at 88.9 54.61)
+		(at 74.93 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6778d38f-c0bb-4ef8-b139-7e127c4ecd8b")
@@ -2317,7 +2362,7 @@
 		(uuid "c01a8514-9a42-440a-a98f-87da97aab2d4")
 	)
 	(junction
-		(at 78.74 54.61)
+		(at 64.77 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c44d2995-6065-4422-9250-6933bef06929")
@@ -2656,7 +2701,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 54.61) (xy 83.82 54.61)
+			(xy 64.77 54.61) (xy 69.85 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2796,7 +2841,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 52.07) (xy 88.9 54.61)
+			(xy 74.93 52.07) (xy 74.93 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2866,7 +2911,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 54.61) (xy 88.9 54.61)
+			(xy 69.85 54.61) (xy 74.93 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2946,7 +2991,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 54.61) (xy 78.74 54.61)
+			(xy 59.69 54.61) (xy 64.77 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2956,7 +3001,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 54.61) (xy 83.82 62.23)
+			(xy 69.85 54.61) (xy 69.85 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3006,7 +3051,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 69.85) (xy 83.82 73.66)
+			(xy 69.85 69.85) (xy 69.85 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3026,7 +3071,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 54.61) (xy 96.52 54.61)
+			(xy 74.93 54.61) (xy 96.52 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3166,7 +3211,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 49.53) (xy 78.74 54.61)
+			(xy 64.77 49.53) (xy 64.77 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3239,7 +3284,7 @@
 	)
 	(hierarchical_label "+BATT"
 		(shape input)
-		(at 73.66 54.61 180)
+		(at 59.69 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3316,7 +3361,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 83.82 66.04 0)
+		(at 69.85 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3325,7 +3370,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f3ef37b-2735-4741-8173-aef62357787c")
 		(property "Reference" "C32"
-			(at 87.63 64.77 0)
+			(at 73.66 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3334,7 +3379,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 87.63 67.31 0)
+			(at 73.66 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3343,7 +3388,7 @@
 			)
 		)
 		(property "Footprint" "0_Devices:0_C_0805_Edited"
-			(at 84.7852 69.85 0)
+			(at 70.8152 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3352,7 +3397,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 66.04 0)
+			(at 69.85 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3361,7 +3406,7 @@
 			)
 		)
 		(property "Description" "1μF/50Vdc, ±10%, X7R"
-			(at 83.82 66.04 0)
+			(at 69.85 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3370,7 +3415,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG"
-			(at 83.82 66.04 0)
+			(at 69.85 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3379,7 +3424,7 @@
 			)
 		)
 		(property "Mf. Part Number" "CL21B105KBFNNNE"
-			(at 83.82 66.04 0)
+			(at 69.85 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3650,7 +3695,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "275c1fee-8235-4962-a2cc-2347a162507f")
 		(property "Reference" "Q1"
 			(at 101.6 67.31 90)
@@ -3802,7 +3846,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 73.66 0)
+		(at 69.85 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3811,7 +3855,7 @@
 		(fields_autoplaced yes)
 		(uuid "30b09d94-54e4-4b49-b7b8-7bbba35d4992")
 		(property "Reference" "#PWR047"
-			(at 83.82 80.01 0)
+			(at 69.85 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3820,7 +3864,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 78.74 0)
+			(at 69.85 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3828,7 +3872,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 73.66 0)
+			(at 69.85 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3837,7 +3881,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 73.66 0)
+			(at 69.85 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3846,7 +3890,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 73.66 0)
+			(at 69.85 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +5126,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 88.9 52.07 0)
+		(at 74.93 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5091,7 +5135,7 @@
 		(fields_autoplaced yes)
 		(uuid "9960eead-a652-473f-87cb-b6f07c3b2618")
 		(property "Reference" "TP1"
-			(at 91.44 47.498 0)
+			(at 77.47 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,7 +5144,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 91.44 50.038 0)
+			(at 77.47 50.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5109,7 +5153,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 93.98 52.07 0)
+			(at 80.01 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,7 +5162,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 52.07 0)
+			(at 80.01 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,7 +5171,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 88.9 52.07 0)
+			(at 74.93 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5136,7 +5180,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 88.9 52.07 0)
+			(at 74.93 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,7 +5189,7 @@
 			)
 		)
 		(property "Mf. Part Number" ""
-			(at 88.9 52.07 0)
+			(at 74.93 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5233,7 +5277,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 78.74 49.53 0)
+		(at 64.77 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5242,7 +5286,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fa963b3-09ef-4414-b80a-3fa94a09e27c")
 		(property "Reference" "#PWR041"
-			(at 78.74 53.34 0)
+			(at 64.77 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5251,7 +5295,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 78.74 44.45 0)
+			(at 64.77 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5259,7 +5303,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 49.53 0)
+			(at 64.77 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5268,7 +5312,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 49.53 0)
+			(at 64.77 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5277,7 +5321,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 78.74 49.53 0)
+			(at 64.77 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)

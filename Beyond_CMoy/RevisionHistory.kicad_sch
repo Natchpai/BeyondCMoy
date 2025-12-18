@@ -6,104 +6,56 @@
 	(paper "A4")
 	(title_block
 		(title "Revision History")
-		(rev "1.0")
+		(rev "1.1")
 		(company "Natchpai")
 	)
 	(lib_symbols)
-	(rectangle
-		(start 38.1 38.1)
-		(end 260.35 152.4)
-		(stroke
-			(width 0.381)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid f16a135f-325d-44ef-91fa-78fdb54d27ad)
-	)
-	(text "Description"
+	(text "First version Schematic/PCB Release"
 		(exclude_from_sim no)
-		(at 151.13 41.91 0)
+		(at 33.02 43.18 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "0d0fe3ec-fcfe-4966-acc6-5c17993ee757")
-	)
-	(text "First version SCH/PCB Release"
-		(exclude_from_sim no)
-		(at 83.82 54.61 0)
-		(effects
-			(font
-				(size 2.54 2.54)
+				(size 2.032 2.032)
 				(color 0 0 0 1)
 			)
 			(justify left)
 		)
 		(uuid "31515b4b-f1b5-437a-98c5-8a284c82d4b1")
 	)
-	(text "Author"
+	(text "Changed U6's Symbol and Pin Number"
 		(exclude_from_sim no)
-		(at 245.11 41.91 0)
+		(at 33.02 62.23 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "70a4de49-d5af-4452-a427-c29ec0fedd9f")
-	)
-	(text "Date"
-		(exclude_from_sim no)
-		(at 49.53 41.91 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "779148f9-823c-4094-b70f-b95c0e4ce17b")
-	)
-	(text "Initial project"
-		(exclude_from_sim no)
-		(at 83.82 48.26 0)
-		(effects
-			(font
-				(size 2.54 2.54)
+				(size 2.032 2.032)
 				(color 0 0 0 1)
 			)
 			(justify left)
 		)
-		(uuid "8342cc6f-6090-45f9-a40d-1440235ad649")
+		(uuid "43ad3699-5f08-42ea-a3d5-dc47fc5fd3bd")
 	)
-	(text "Natchanon T."
+	(text "19/Nov/2025"
 		(exclude_from_sim no)
-		(at 233.68 54.61 0)
+		(at 87.63 54.61 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
 				(color 0 0 0 1)
 			)
 			(justify left)
 		)
-		(uuid "918d7996-78dc-4378-a5a2-48e70200676c")
+		(uuid "5bbeb0ff-348f-421e-a8e6-02bfbea7e7c3")
 	)
 	(text "07/Dec/2025"
 		(exclude_from_sim no)
-		(at 40.64 54.61 0)
+		(at 87.63 36.83 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
 				(color 0 0 0 1)
 			)
 			(justify left)
@@ -112,32 +64,23 @@
 	)
 	(text "1.0"
 		(exclude_from_sim no)
-		(at 71.12 54.61 0)
+		(at 45.72 36.83 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
 				(color 0 0 0 1)
 			)
 		)
 		(uuid "b45008ca-abb1-4aa4-9ebc-2d650e09061d")
 	)
-	(text "0.1"
-		(exclude_from_sim no)
-		(at 71.12 48.26 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "c6b4e513-46b9-4f08-8150-fb1fff5da123")
-	)
 	(text "Revision"
 		(exclude_from_sim no)
-		(at 71.12 41.91 0)
+		(at 36.83 36.83 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 2.032 2.032)
 				(thickness 0.508)
 				(bold yes)
 				(color 0 0 0 1)
@@ -145,17 +88,18 @@
 		)
 		(uuid "cb74dfdb-e5b4-4c6e-9ee7-e14c67d85349")
 	)
-	(text "22/Nov/2025"
+	(text "Revision"
 		(exclude_from_sim no)
-		(at 40.64 48.26 0)
+		(at 36.83 54.61 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 2.032 2.032)
+				(thickness 0.508)
+				(bold yes)
 				(color 0 0 0 1)
 			)
-			(justify left)
 		)
-		(uuid "ce2a867c-84f7-4e89-859f-b473941fa06d")
+		(uuid "d627cd22-5b4f-4a17-b4db-f31df829dee6")
 	)
 	(text "[${#}] ${TITLE}"
 		(exclude_from_sim no)
@@ -169,236 +113,72 @@
 		)
 		(uuid "dcef6df5-bb9b-48b9-8f90-1ac7f9cb5aba")
 	)
-	(text "Natchanon T."
+	(text "1.1"
 		(exclude_from_sim no)
-		(at 233.68 48.26 0)
+		(at 45.72 54.61 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
 				(color 0 0 0 1)
 			)
-			(justify left)
 		)
-		(uuid "f612640b-aa4e-4541-8138-112027fd27ac")
+		(uuid "f684adb0-0cfc-486b-906b-62bfae799874")
 	)
 	(polyline
 		(pts
-			(xy 38.1 101.6) (xy 260.35 101.6)
+			(xy 29.21 57.15) (xy 105.41 57.15)
 		)
 		(stroke
-			(width 0)
-			(type dot)
-			(color 0 0 0 1)
-		)
-		(uuid "012e70c3-807c-461a-88c1-0e9664c94184")
-	)
-	(polyline
-		(pts
-			(xy 38.1 95.25) (xy 260.35 95.25)
-		)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 0 0 0 1)
-		)
-		(uuid "0292fab4-007e-4c1e-ab09-ce6ed746dd78")
-	)
-	(polyline
-		(pts
-			(xy 38.1 88.9) (xy 260.35 88.9)
-		)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 0 0 0 1)
-		)
-		(uuid "181a2f49-b6b9-4ce6-92e9-8e010f78f104")
-	)
-	(polyline
-		(pts
-			(xy 38.1 133.35) (xy 260.35 133.35)
-		)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 0 0 0 1)
-		)
-		(uuid "29085265-b9dc-44f8-8659-07f7be09acb0")
-	)
-	(polyline
-		(pts
-			(xy 38.1 44.45) (xy 260.35 44.45)
-		)
-		(stroke
-			(width 0.381)
+			(width 0.254)
 			(type default)
 			(color 0 0 0 1)
 		)
-		(uuid "4bf5592e-f351-4057-a6d5-608a399f1027")
+		(uuid "26d4c63e-c1d6-41bb-9bc0-8032ec1a45af")
 	)
 	(polyline
 		(pts
-			(xy 231.14 38.1) (xy 231.14 152.4)
+			(xy 29.21 50.8) (xy 105.41 50.8)
 		)
 		(stroke
-			(width 0.381)
+			(width 0.254)
 			(type default)
 			(color 0 0 0 1)
 		)
-		(uuid "55876f83-99cf-41f4-a425-af9dc7b41422")
+		(uuid "2c88d01e-327c-4240-a180-fc94eefdc8d1")
 	)
 	(polyline
 		(pts
-			(xy 38.1 114.3) (xy 260.35 114.3)
+			(xy 29.21 33.02) (xy 29.21 165.1)
 		)
 		(stroke
-			(width 0)
-			(type dot)
-			(color 0 0 0 1)
-		)
-		(uuid "5bbeb307-88f4-4eeb-84e1-7b864fc95c7b")
-	)
-	(polyline
-		(pts
-			(xy 38.1 146.05) (xy 260.35 146.05)
-		)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 0 0 0 1)
-		)
-		(uuid "771041b3-f65b-4892-80df-d78766a69f47")
-	)
-	(polyline
-		(pts
-			(xy 38.1 63.5) (xy 260.35 63.5)
-		)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 0 0 0 1)
-		)
-		(uuid "88a561a5-d028-4d6e-9814-39e977cd6b48")
-	)
-	(polyline
-		(pts
-			(xy 38.1 120.65) (xy 260.35 120.65)
-		)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 0 0 0 1)
-		)
-		(uuid "8b48033b-6246-4ee9-abfa-4833b51f7f0a")
-	)
-	(polyline
-		(pts
-			(xy 62.23 38.1) (xy 62.23 152.4)
-		)
-		(stroke
-			(width 0.381)
+			(width 0.254)
 			(type default)
 			(color 0 0 0 1)
 		)
-		(uuid "8f6d263e-753f-410d-8012-979170df3212")
+		(uuid "d25a3852-95c8-43c1-acc1-3061fbefdb3a")
 	)
 	(polyline
 		(pts
-			(xy 38.1 69.85) (xy 260.35 69.85)
+			(xy 29.21 33.02) (xy 105.41 33.02)
 		)
 		(stroke
-			(width 0)
-			(type dot)
-			(color 0 0 0 1)
-		)
-		(uuid "a9a2f377-9798-40c8-b37d-f817ec7456fd")
-	)
-	(polyline
-		(pts
-			(xy 38.1 57.15) (xy 260.35 57.15)
-		)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 0 0 0 1)
-		)
-		(uuid "ad0c8f05-16ca-4bbc-8063-7f01b625b375")
-	)
-	(polyline
-		(pts
-			(xy 80.01 38.1) (xy 80.01 152.4)
-		)
-		(stroke
-			(width 0.381)
+			(width 0.254)
 			(type default)
 			(color 0 0 0 1)
 		)
-		(uuid "b1518573-3439-4bd6-95bc-9c03be0a8875")
+		(uuid "e8ee758d-2959-408c-8c5e-14a94c7ccd4c")
 	)
 	(polyline
 		(pts
-			(xy 38.1 127) (xy 260.35 127)
+			(xy 29.21 39.37) (xy 105.41 39.37)
 		)
 		(stroke
-			(width 0)
-			(type dot)
+			(width 0.254)
+			(type default)
 			(color 0 0 0 1)
 		)
-		(uuid "b3fcd635-3992-4159-aa61-be050b571e5c")
-	)
-	(polyline
-		(pts
-			(xy 38.1 107.95) (xy 260.35 107.95)
-		)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 0 0 0 1)
-		)
-		(uuid "bcc0f653-8403-4878-8c9c-e5d06e2e4810")
-	)
-	(polyline
-		(pts
-			(xy 38.1 76.2) (xy 260.35 76.2)
-		)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 0 0 0 1)
-		)
-		(uuid "d390c9c9-27da-435f-a982-6ac9cf0019e4")
-	)
-	(polyline
-		(pts
-			(xy 38.1 50.8) (xy 260.35 50.8)
-		)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 0 0 0 1)
-		)
-		(uuid "e5e6e008-d5ca-4e49-a1f4-c07d8af65b89")
-	)
-	(polyline
-		(pts
-			(xy 38.1 82.55) (xy 260.35 82.55)
-		)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 0 0 0 1)
-		)
-		(uuid "ecfb6026-8452-48d9-8efc-913e90875f47")
-	)
-	(polyline
-		(pts
-			(xy 38.1 139.7) (xy 260.35 139.7)
-		)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 0 0 0 1)
-		)
-		(uuid "f5c4f1a9-a3b0-4a36-971b-3f4e49a23d6c")
+		(uuid "fbb6f736-171a-44cf-80b6-3ac8e4eaa700")
 	)
 )
