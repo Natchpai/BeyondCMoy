@@ -12,31 +12,33 @@
 	(lib_symbols)
 	(text "First version Schematic/PCB Release"
 		(exclude_from_sim no)
-		(at 33.02 43.18 0)
+		(at 29.21 39.37 0)
 		(effects
 			(font
-				(size 2.032 2.032)
+				(face "Calibri")
+				(size 1.778 1.778)
 				(color 0 0 0 1)
 			)
 			(justify left)
 		)
 		(uuid "31515b4b-f1b5-437a-98c5-8a284c82d4b1")
 	)
-	(text "Changed U6's Symbol and Pin Number"
+	(text "Interface\n* Added 33pF on (R_BT) and (L_BT) Line\n\nAmplifier\n* Redesign Buffer stage\n* Changed DC Gain=2\n\nPower Management System\n* Use MOSFET as a switch to power up the module.\n* Changed BD50FA1FP3(5V Regulator) Pin Alignment\n\nBattery Management System\n* Increased ESD9L5.0ST5G Footprint size\n\n- Changed Alignment of Ref. Designators"
 		(exclude_from_sim no)
-		(at 33.02 62.23 0)
+		(at 29.21 55.88 0)
 		(effects
 			(font
-				(size 2.032 2.032)
+				(face "Calibri")
+				(size 1.778 1.778)
 				(color 0 0 0 1)
 			)
-			(justify left)
+			(justify left top)
 		)
 		(uuid "43ad3699-5f08-42ea-a3d5-dc47fc5fd3bd")
 	)
-	(text "19/Nov/2025"
+	(text "21/Nov/2025"
 		(exclude_from_sim no)
-		(at 87.63 54.61 0)
+		(at 83.82 50.8 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -50,7 +52,7 @@
 	)
 	(text "07/Dec/2025"
 		(exclude_from_sim no)
-		(at 87.63 36.83 0)
+		(at 83.82 33.02 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -64,7 +66,7 @@
 	)
 	(text "1.0"
 		(exclude_from_sim no)
-		(at 45.72 36.83 0)
+		(at 41.91 33.02 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -77,7 +79,7 @@
 	)
 	(text "Revision"
 		(exclude_from_sim no)
-		(at 36.83 36.83 0)
+		(at 33.02 33.02 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -90,7 +92,7 @@
 	)
 	(text "Revision"
 		(exclude_from_sim no)
-		(at 36.83 54.61 0)
+		(at 33.02 50.8 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -113,9 +115,9 @@
 		)
 		(uuid "dcef6df5-bb9b-48b9-8f90-1ac7f9cb5aba")
 	)
-	(text "1.1"
+	(text "1.1\n"
 		(exclude_from_sim no)
-		(at 45.72 54.61 0)
+		(at 41.91 50.8 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -128,7 +130,40 @@
 	)
 	(polyline
 		(pts
-			(xy 29.21 57.15) (xy 105.41 57.15)
+			(xy 110.49 29.21) (xy 110.49 161.29)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "112e55f6-750d-4688-ac4e-7928e9f9b255")
+	)
+	(polyline
+		(pts
+			(xy 271.78 29.21) (xy 271.78 161.29)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "1c96ecee-c9ba-41b0-b0e2-c2d543a7c419")
+	)
+	(polyline
+		(pts
+			(xy 101.6 29.21) (xy 101.6 161.29)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "207e5916-8670-4931-afae-62ebe2bab725")
+	)
+	(polyline
+		(pts
+			(xy 25.4 53.34) (xy 101.6 53.34)
 		)
 		(stroke
 			(width 0.254)
@@ -139,7 +174,29 @@
 	)
 	(polyline
 		(pts
-			(xy 29.21 50.8) (xy 105.41 50.8)
+			(xy 195.58 29.21) (xy 271.78 29.21)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "276d0cd2-7dff-4d6a-9467-3f38cc877eb4")
+	)
+	(polyline
+		(pts
+			(xy 25.4 161.29) (xy 101.6 161.29)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "2c09207f-d7a2-47c5-9009-3a7eee1f036f")
+	)
+	(polyline
+		(pts
+			(xy 25.4 46.99) (xy 101.6 46.99)
 		)
 		(stroke
 			(width 0.254)
@@ -150,7 +207,51 @@
 	)
 	(polyline
 		(pts
-			(xy 29.21 33.02) (xy 29.21 165.1)
+			(xy 110.49 29.21) (xy 186.69 29.21)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "382e63e9-43e5-43a4-bb88-c8461327d807")
+	)
+	(polyline
+		(pts
+			(xy 186.69 29.21) (xy 186.69 161.29)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "9f05367c-17c9-47a5-adb8-2463b08a7c27")
+	)
+	(polyline
+		(pts
+			(xy 110.49 161.29) (xy 186.69 161.29)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "afc35b25-6992-49ba-9d0a-24b79ce25fe3")
+	)
+	(polyline
+		(pts
+			(xy 195.58 29.21) (xy 195.58 161.29)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "c8ab6b47-6219-416d-ad43-40555c11c91b")
+	)
+	(polyline
+		(pts
+			(xy 25.4 29.21) (xy 25.4 161.29)
 		)
 		(stroke
 			(width 0.254)
@@ -161,7 +262,7 @@
 	)
 	(polyline
 		(pts
-			(xy 29.21 33.02) (xy 105.41 33.02)
+			(xy 25.4 29.21) (xy 101.6 29.21)
 		)
 		(stroke
 			(width 0.254)
@@ -172,7 +273,18 @@
 	)
 	(polyline
 		(pts
-			(xy 29.21 39.37) (xy 105.41 39.37)
+			(xy 195.58 161.29) (xy 271.78 161.29)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "eb7b6111-4875-48ad-8a5c-1182baa80b54")
+	)
+	(polyline
+		(pts
+			(xy 25.4 35.56) (xy 101.6 35.56)
 		)
 		(stroke
 			(width 0.254)

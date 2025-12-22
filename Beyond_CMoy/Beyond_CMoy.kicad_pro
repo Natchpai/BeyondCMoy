@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.5,
-          "height": 2.5,
-          "width": 2.5
+          "drill": 0.0,
+          "height": 0.6,
+          "width": 1.95
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -272,6 +272,10 @@
   },
   "erc": {
     "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|2082800|1244600|e96b94e5-0606-47ae-9d3e-1fc399c49c77|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
       [
         "power_pin_not_driven|2349500|431800|096d7695-78a6-4e8c-ae59-f490f9e6f587|00000000-0000-0000-0000-000000000000|/1ee317a7-d9f9-4115-84b1-2928dd345c54/5a34e38c-4a25-4100-abfa-7d7109ddb273|/1ee317a7-d9f9-4115-84b1-2928dd345c54/5a34e38c-4a25-4100-abfa-7d7109ddb273|",
         ""
@@ -622,6 +626,10 @@
       {
         "netclass": "GND",
         "pattern": "GND"
+      },
+      {
+        "netclass": "BATT",
+        "pattern": "/Power Management System/ON_BATT"
       }
     ]
   },
@@ -822,7 +830,7 @@
     "DESIGN_DATE": "22/11/2025",
     "DESIGN_NAME": "Natchanon T.",
     "DOC_TYPE": "Assembly",
-    "MOD_DATE": "-",
+    "MOD_DATE": "21/12/2025",
     "MOD_NAME": "-",
     "PROJECT_ID": "AA-2025-11-001",
     "PROJECT_NAME": "Beyond CMoy",
