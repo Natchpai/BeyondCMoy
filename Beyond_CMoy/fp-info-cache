@@ -1,4 +1,4 @@
-26188442910056640
+26191975533129184
 0_AudioConnectors
 PJ-327F_SMD
 
@@ -20,6 +20,20 @@ inductor
 0
 2
 2
+0_Devices
+D_SOD-923_Edited
+https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF#page=4
+Diode SOD923
+0
+2
+2
+0_Devices
+Untitled
+
+
+0
+0
+0
 0_Potentiometer
 0_RK097GS_Dual_Horizontal_Switch
 1221-5R1211, Dual Pot, Horizontal, Switch, Alps RK097 Dual, https://tech.alpsalpine.com/prod/e/pdf/potentiometer/rotarypotentiometers/rk097/rk097.pdf

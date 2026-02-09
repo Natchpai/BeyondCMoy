@@ -6,10 +6,34 @@
 	(paper "A4")
 	(title_block
 		(title "Block Diagram")
-		(rev "1.0")
+		(rev "1.1")
 		(company "Natchpai")
 	)
 	(lib_symbols)
+	(rectangle
+		(start 73.66 44.45)
+		(end 228.6 140.97)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d4c01ba8-7197-43c5-a3b1-ca87e9225362)
+	)
+	(circle
+		(center 220.98 52.07)
+		(radius 4.0161)
+		(stroke
+			(width 0.381)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dbf90d30-1b4f-464b-a33f-c877c1f5b533)
+	)
 	(text "[${#}] ${TITLE}"
 		(exclude_from_sim no)
 		(at 148.59 22.86 0)
@@ -24,7 +48,7 @@
 	)
 	(text "200mAh - Lithium Polymer Battery"
 		(exclude_from_sim no)
-		(at 222.25 73.66 0)
+		(at 203.2 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +82,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 120.65) (xy 128.27 120.65)
+			(xy 110.49 120.65) (xy 119.38 120.65)
 		)
 		(stroke
 			(width 0)
@@ -68,7 +92,17 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 99.06) (xy 128.27 99.06)
+			(xy 166.37 78.74) (xy 166.37 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bbc5389-92ee-404c-944f-56732aeb0691")
+	)
+	(wire
+		(pts
+			(xy 110.49 99.06) (xy 119.38 99.06)
 		)
 		(stroke
 			(width 0)
@@ -78,27 +112,27 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 72.39) (xy 182.88 72.39)
+			(xy 171.45 99.06) (xy 171.45 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5cee323e-63be-457d-a6cf-9dc5476fd826")
+		(uuid "790059d0-6e67-4cd3-9aab-deb27a398c42")
 	)
 	(wire
 		(pts
-			(xy 182.88 72.39) (xy 182.88 99.06)
+			(xy 166.37 99.06) (xy 162.56 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71ae5395-fdab-473c-99a0-d4208de17162")
+		(uuid "8eedfbfe-37fe-460a-902f-b6d4ac6089f4")
 	)
 	(wire
 		(pts
-			(xy 107.95 104.14) (xy 128.27 104.14)
+			(xy 110.49 104.14) (xy 119.38 104.14)
 		)
 		(stroke
 			(width 0)
@@ -108,7 +142,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 115.57) (xy 128.27 115.57)
+			(xy 110.49 115.57) (xy 119.38 115.57)
 		)
 		(stroke
 			(width 0)
@@ -129,47 +163,37 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 63.5) (xy 194.31 63.5)
+			(xy 110.49 66.04) (xy 153.67 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c606d229-58ea-438a-8464-8e4176818931")
+		(uuid "d53d13e9-4b86-42ce-80ad-a2c5112fe238")
 	)
 	(wire
 		(pts
-			(xy 107.95 73.66) (xy 128.27 73.66)
+			(xy 110.49 72.39) (xy 153.67 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dff87b99-8cc4-4d82-913b-9ce80c237a5f")
+		(uuid "ddbb24bb-2c05-459f-bafd-1ed8ef0b78aa")
 	)
 	(wire
 		(pts
-			(xy 182.88 99.06) (xy 171.45 99.06)
+			(xy 171.45 99.06) (xy 175.26 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ec321379-62f9-4926-8c8b-a6bc71443463")
-	)
-	(wire
-		(pts
-			(xy 107.95 67.31) (xy 128.27 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa218652-52f0-458c-a98a-095502f0877a")
+		(uuid "eb8ef491-519c-42e6-969f-3c6ab12e4e29")
 	)
 	(sheet
-		(at 128.27 87.63)
-		(size 43.18 38.1)
+		(at 119.38 93.98)
+		(size 43.18 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -184,7 +208,7 @@
 		)
 		(uuid "2d9672f4-3b4a-4b4e-8c07-73e5cea2fbd1")
 		(property "Sheetname" "Amplifier"
-			(at 128.27 86.2834 0)
+			(at 119.38 92.6334 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -193,7 +217,7 @@
 			)
 		)
 		(property "Sheetfile" "Amplifier.kicad_sch"
-			(at 128.27 126.3146 0)
+			(at 119.38 126.3146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -202,7 +226,7 @@
 			)
 		)
 		(pin "+9VA" input
-			(at 171.45 99.06 0)
+			(at 162.56 99.06 0)
 			(uuid "23794e98-966d-49db-9a9c-22045c59b400")
 			(effects
 				(font
@@ -212,7 +236,7 @@
 			)
 		)
 		(pin "L_IN" input
-			(at 128.27 99.06 180)
+			(at 119.38 99.06 180)
 			(uuid "6ae04af7-591f-4cea-a786-95a9627595e2")
 			(effects
 				(font
@@ -222,7 +246,7 @@
 			)
 		)
 		(pin "L_OUT" output
-			(at 128.27 115.57 180)
+			(at 119.38 115.57 180)
 			(uuid "d4b9caa8-861b-4cd8-819f-3b11244faff8")
 			(effects
 				(font
@@ -232,7 +256,7 @@
 			)
 		)
 		(pin "R_IN" input
-			(at 128.27 104.14 180)
+			(at 119.38 104.14 180)
 			(uuid "1e182efe-739e-469d-8440-6f5d6d978cbe")
 			(effects
 				(font
@@ -242,7 +266,7 @@
 			)
 		)
 		(pin "R_OUT" output
-			(at 128.27 120.65 180)
+			(at 119.38 120.65 180)
 			(uuid "4970fc32-8ad3-4491-b32f-161b0508a610")
 			(effects
 				(font
@@ -260,13 +284,12 @@
 		)
 	)
 	(sheet
-		(at 128.27 59.69)
-		(size 43.18 16.51)
+		(at 153.67 60.96)
+		(size 63.5 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -276,7 +299,7 @@
 		)
 		(uuid "4ea140a5-ed5c-4bae-898c-47222fd73685")
 		(property "Sheetname" "Power Management System"
-			(at 128.27 58.3434 0)
+			(at 153.67 59.6134 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -285,7 +308,7 @@
 			)
 		)
 		(property "Sheetfile" "Power Management.kicad_sch"
-			(at 128.27 76.7846 0)
+			(at 191.432 79.6504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -294,27 +317,27 @@
 			)
 		)
 		(pin "+9VA" output
-			(at 171.45 72.39 0)
+			(at 166.37 78.74 270)
 			(uuid "fb8a583b-359c-45fc-84b6-6bacdaae050f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "+BATT" input
-			(at 171.45 63.5 0)
+			(at 171.45 78.74 270)
 			(uuid "07e9ce37-33fc-4634-b596-bb23e79b9d47")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "Power_ON" input
-			(at 128.27 73.66 180)
+			(at 153.67 72.39 180)
 			(uuid "245cd717-9812-4798-a2b0-447fda727762")
 			(effects
 				(font
@@ -324,7 +347,7 @@
 			)
 		)
 		(pin "+5V" output
-			(at 128.27 67.31 180)
+			(at 153.67 66.04 180)
 			(uuid "70b46ce1-162d-4eaf-9220-cdaed1ea8ba5")
 			(effects
 				(font
@@ -342,8 +365,8 @@
 		)
 	)
 	(sheet
-		(at 81.28 58.42)
-		(size 26.67 67.31)
+		(at 83.82 60.96)
+		(size 26.67 64.77)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -358,7 +381,7 @@
 		)
 		(uuid "5a34e38c-4a25-4100-abfa-7d7109ddb273")
 		(property "Sheetname" "Interface"
-			(at 81.28 57.0734 0)
+			(at 83.82 59.6134 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -367,7 +390,7 @@
 			)
 		)
 		(property "Sheetfile" "interface.kicad_sch"
-			(at 81.28 126.3146 0)
+			(at 83.82 126.3146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -376,7 +399,7 @@
 			)
 		)
 		(pin "L_OUT" input
-			(at 107.95 115.57 0)
+			(at 110.49 115.57 0)
 			(uuid "4fa95488-b9e0-4e8d-9f40-cb9d88db055a")
 			(effects
 				(font
@@ -386,7 +409,7 @@
 			)
 		)
 		(pin "R_OUT" input
-			(at 107.95 120.65 0)
+			(at 110.49 120.65 0)
 			(uuid "7120dd86-8a93-457f-81b0-d9d525061d50")
 			(effects
 				(font
@@ -396,7 +419,7 @@
 			)
 		)
 		(pin "Power_ON" output
-			(at 107.95 73.66 0)
+			(at 110.49 72.39 0)
 			(uuid "6534f8f0-078d-42b2-a137-be8e7c6b91f2")
 			(effects
 				(font
@@ -406,7 +429,7 @@
 			)
 		)
 		(pin "+5V" input
-			(at 107.95 67.31 0)
+			(at 110.49 66.04 0)
 			(uuid "652c8b0e-28f6-41d2-aae5-73e66a4dfcb4")
 			(effects
 				(font
@@ -416,7 +439,7 @@
 			)
 		)
 		(pin "L_COUP" output
-			(at 107.95 99.06 0)
+			(at 110.49 99.06 0)
 			(uuid "83cfc9af-a17d-4339-a2b9-47a86ed2e3d1")
 			(effects
 				(font
@@ -426,7 +449,7 @@
 			)
 		)
 		(pin "R_COUP" output
-			(at 107.95 104.14 0)
+			(at 110.49 104.14 0)
 			(uuid "42d6ea00-b605-46b5-b9cd-d2a3f074d011")
 			(effects
 				(font
@@ -444,8 +467,8 @@
 		)
 	)
 	(sheet
-		(at 194.31 59.69)
-		(size 41.91 16.51)
+		(at 175.26 93.98)
+		(size 41.91 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -460,7 +483,7 @@
 		)
 		(uuid "615c305d-8768-47e7-86f6-9adb9bcb9cb4")
 		(property "Sheetname" "Battery Management System"
-			(at 194.31 58.3434 0)
+			(at 175.26 92.6334 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -469,7 +492,7 @@
 			)
 		)
 		(property "Sheetfile" "BMS.kicad_sch"
-			(at 194.31 76.7846 0)
+			(at 175.26 126.3146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -478,7 +501,7 @@
 			)
 		)
 		(pin "+BATT" output
-			(at 194.31 63.5 180)
+			(at 175.26 99.06 180)
 			(uuid "e660040b-4a9b-4b83-a70e-022d4ebc8dc4")
 			(effects
 				(font
@@ -1073,36 +1096,6 @@
 				Uggg5e7be/+GYEnNVMaj0hOajo+Y4x+gE9o5sl1H8SJI7zvTsn5wxXvqxfuQ2o6OXskjCmrEAQ==|
 			)
 			(checksum "F1A3D46AB63ACB94DDA48DC21D2E0F09")
-		)
-		(file
-			(name "Rev5_MyCustomTemplate_A3.kicad_wks")
-			(type worksheet)
-			(data |KLUv/WCII50pAEY5picA0bYBvLhuKSP8M/9n2zh4ihEzlDPn1DqR3Zt2JhnHzE1UVV9yjwemAJ8A
-				kgBVzS4onm9LIX/bMplMa1cAUK2L0/t8swsUdbRVg9ZMfc093/ZCGpjGqnwrRUFUwte4GWzbjUUx
-				amGXpnq2bduKUTWLoqUfyqoain2uWq8M6KoTnQprvVbVwagPpnKo5/Ga207UTZVBrcrzaDm5l25U
-				WdWgtQAAIEAAdFFp1nhGmKjaUIwHFC12VQqjFu08ZHc7b77WVWUYxSgACBDIKjIwG0pTVRQE0k12
-				39ndkIo0SeAgiB/ZuX0eQdWFxXRQNZTiwihv/vTI0qtFVRgF4WJj6etPcnz0Q0l2g1FXwvzH/bLZ
-				e19HjnFyiCy06Q4fJMlzjt83Smf500WCYCKm6P3YpYsMu0MyiVgiEFOFgyDaVFspnbBE+/lcmm6L
-				XZ5L84gs6nNVNoNKNqOf6hIt1VAch/G5+f4/QwQMWsEwLITRalHNhjgBvi4bvEikSEWCeOfYfd27
-				G0PZ+vlN/+bWsnFz/t3YHTbn7/U5IbfHdgzXn4TsnMu97I7KRJF8/rNw98Lp3KSELBs+hjun4zmg
-				qTxUrdZfRv5tnwyfhESiPEwUooNRsru+KEwNkwrFPT6WCydCVi1arUthaYdy1z5C/nX+OiaHS+Qy
-				nbP3znb80lMtbDxXZh8/owcBAg+XH3m+bo4PicyGk0WaHKZ/pSCyeXPDuDAQSIrPcfMJYlKhUCTp
-				eHM9bM0oBzflO8OGTB4cfDz/wcYO4zsY+fm6u7N/P3Qs9ydCyKJAn0tBNuT2HL6zt+MH3znnHiHP
-				N91k+Ozf/s3Z53OHz825Z2l1qoxCmnznocxuaAatMGjln6WEIWKZIC06SzkdQ/ePkj+BBaBRnXLK
-				FMmINEkKHZEQMc4oz6B5w1EdH7bZ0eR/o6YGzHeQzr1vplI5cBC5rSpiy5eHgA9WbGnSf+h/bS5m
-				3LOXM4GSBGy1iJaMHds3egk2i23dFMK8ELo0F7LR7XBCi3ABkeOtOYZSwRnHoOlHfsogSdKP4KRu
-				cE8YNNRzjGX+xL6Tmwnj896BmlxYiNO5Y4cBzmXqnZ+MuHakk5xtsAx7zzAX44ZEgjHxT5Tw3OOs
-				cOb5mpST7sciZs2mTRmhEoCUL8q0BPiEg48x6HzT1sQIuC+ycTo4Iic/Uhw8gi8bRxpwWDL5xFzQ
-				cTaYnXaGYPeEmmQGtmMdeWg5gFkGEZccLXviGyDdaHcp1yYhdM3Yd3o8qfjxPKQLVvtNnNFgAUIy
-				f8LEOTbfzDLUZGP8sfABPF+YntslxSnDNjTYkXaOEsOHdPqHxxvWRgiYZuYutp0Wkg4ZdzAGAPLg
-				wVsK504hc6fRGkibJGZBD44m23ZlbK+wm6hSGJAJwW0AQo1i2qO3dA0bAepYi2Fkslj/6UQuJyhB
-				sQ8rf9CLhWlkwlEGgqQrkONww7NpdFoIsWRqrfODCtZnXMh+J4wpYlJQCRE0nR9C/vjZRV0/6GBy
-				jAAZpeDg0JArGpNmIDh7gb2RWYA1Eio+kJhVpPPYuP+oO2ROMW1CB8zLQTanBbTHxURFQZwwNKA3
-				OJlWYlhL83F5nyeaTwSkxfSVbxl8+CD9uJ5RDpxpHiigVMxZPnvKTdTWXfTWrhpEhumdp32hg8K7
-				juMIfuP+dnvaq3WZJIuxsNtfPId7wxq5NIdPmjseEzsAfoN9QDxwAD7CgQiT1YTzNg6SfLR8o9hi
-				Tr4FEugpnrA3UiBSvWNDyGP9MoSfeGuZa0I6BloV|
-			)
-			(checksum "B82AA459060282AE45EF0BF1E4FBFDCE")
 		)
 	)
 )
